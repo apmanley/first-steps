@@ -1,1 +1,65 @@
-THIS IS A TESTER
+# Procura Insights Marketing Website
+
+A modern multi-page marketing website for a procurement market research company, built with **React + Vite** and **React Router**.
+
+## Pages and Routes
+
+- `/` Home (hero, value proposition, highlights, CTA)
+- `/services` Services
+- `/industries` Industries
+- `/insights` Insights (sample research briefs)
+- `/contact` Contact (front-end form + company info)
+
+## Reusable Components
+
+- `NavBar` (top navigation)
+- `Footer` (quick links and company blurb)
+- `PageLayout` (shared app shell)
+- `Card` (reusable content card)
+
+## Folder Structure
+
+```text
+first-steps/
+├── index.html
+├── package.json
+├── vite.config.js
+├── public/
+└── src/
+    ├── App.jsx
+    ├── main.jsx
+    ├── styles.css
+    ├── components/
+    │   ├── Card.jsx
+    │   ├── Footer.jsx
+    │   └── NavBar.jsx
+    ├── data/
+    │   └── content.js
+    ├── layout/
+    │   └── PageLayout.jsx
+    └── pages/
+        ├── ContactPage.jsx
+        ├── HomePage.jsx
+        ├── IndustriesPage.jsx
+        ├── InsightsPage.jsx
+        └── ServicesPage.jsx
+```
+
+## Run Locally
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+4. Preview production build:
+   ```bash
+   npm run preview
+   ```
